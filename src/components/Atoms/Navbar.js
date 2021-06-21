@@ -17,7 +17,7 @@ const Navbar = () => {
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto" style={{marginLeft:'500px'}}>
+                    <ul className="navbar-nav mr-auto" style={{marginLeft:'530px'}}>
                         <li className="nav-item active">
                             <a className="nav-link" >I'm Beside You Inc.</a>
                         </li>
@@ -28,6 +28,15 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item active">
                             <Switch rounded={true} />               
+                        </li>
+                        <li className="nav-item active" style={{marginLeft:'30px',marginTop:'6px'}}>
+                            <img src="./assets/msg_icon.svg" alt="msg" />              
+                        </li>
+                        <li className="nav-item active" style={{marginLeft:'30px',marginTop:'6px'}}>
+                            <img src="./assets/notification.svg" alt="msg" />              
+                        </li>
+                        <li className="nav-item active" style={{marginLeft:'30px',marginTop:'6px'}}>
+                            <img src="./assets/user.svg" alt="msg" />              
                         </li>
 
                     </ul>

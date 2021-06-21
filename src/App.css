@@ -8,4 +8,53 @@
     margin-top: 100px;
     max-width: 400px;
 }
-    
+
+.student-month{
+    font-family: Roboto Mono;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #545454;
+    ;
+}
+
+.student-img{
+    height: 110px;
+    width: 110px;
+    margin-left:40px;
+}
+
+.star{
+    width: 40px;
+    height: 40px;
+    margin-left:120px;
+    margin-top: -50px;
+}
+
+.student-name{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #545454;
+    margin-left: 40px;
+
+}
+
+.student-info{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#545454;
+
+}
