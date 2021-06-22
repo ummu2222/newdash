@@ -4,7 +4,7 @@ const StudentOfMonth = () => {
     return (
         <div className="card" style={{marginTop:'10px'}}>
             <div className="card-body">
-                <h6 className="student-month" >Student of the Month</h6>
+                <h6 className="c-heading" >Student of the Month</h6>
                 <img src="./assets/student_img.svg" className="student-img" />
                 <img src="./assets/star.svg" className="star" />
                 <h6 className="student-name">Diksha Gupta</h6>
