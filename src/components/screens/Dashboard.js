@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Atoms/Navbar';
 import Content from './content';
 
+
 const Dashboard = () =>{
 
 
