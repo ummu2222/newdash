@@ -1,13 +1,14 @@
 import React from 'react'
 import Loader from "./components/screens/Loader";
-import MyClassEmotion from './components/Atoms/Charts/MyClassEmotion'
-import ScreenTime from './components/Atoms/Charts/ScreenTime'
+import './App.css';
+import Dashboard from './components/screens/Dashboard';
+
 
 const App = () => {
   return (
     <div>
-      <MyClassEmotion />
-      <ScreenTime />
+      {/* <Loader />*/}
+      <Dashboard /> 
     </div>
   );
 }
