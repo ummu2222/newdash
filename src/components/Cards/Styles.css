@@ -1,0 +1,58 @@
+.pagination li .page-link {
+  border: 1px solid #eacc64;
+  color: black;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #eacc64;
+  border-color: #eacc64;
+}
+
+.subjectButton {
+  border-radius: 4px 0px 0px 4px;
+  border-color: #d1d1d1;
+  background: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  /* identical to box height, or 158% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* 🌕 Light Theme/Rest/Foreground/Default Foreground (#242424) */
+
+  color: #242424;
+}
+.subjectButtonDrop {
+  border-radius: 0px 4px 4px 0px;
+  border-color: #d1d1d1;
+  background: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  /* identical to box height, or 158% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* 🌕 Light Theme/Rest/Foreground/Default Foreground (#242424) */
+
+  color: #242424;
+}

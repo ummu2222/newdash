@@ -51,47 +51,48 @@ const chartConfigs = {
 	width: "400",
 	height:"400",
 	id: "myClassEmotion",
-  dataSource: {
+	dataSource: {
     // Chart Configuration
-    chart: {
+		chart: {
 			"showPercentValues": "1",
 			"valuePosition": "inside",
 			"minAngleForValue": "3.6",
-      "showShadow": "0",
-      "use3DLighting": "0",
-      "showLabels": "0",
-      "bgColor": "#1D1B41",
-      "bgAlpha": "0",
-      "canvasBgAlpha": "0",
-      "doughnutRadius": "120",
-     	"pieRadius": "150",
-      "plotBorderAlpha": "0",
-      "toolTipBgcolor": "#484E69",
-      "toolTipPadding": "7",
-      "toolTipBorderRadius": "3",
-      "toolTipBorderAlpha": "30",
-      "tooltipBorderThickness": "0.7",
-      "toolTipColor": "#FDFDFD",
-      "baseFont": "Montserrat",
-      "baseFontSize": "14",
-      "baseFontColor": "#FDFDFD",
-      "chartTopMargin": "-10",
-      "canvasTopMargin": "-10",
-      "chartBottomMargin": "20",
-      "canvasBottomMargin": "20",
-      "enableRotation": "1",
-      "transposeAnimation":"1",
-      "plotToolText": "<div>$label<br>$percentValue<div>"
-    },
-    // Chart Data
-    data: chartData
+			"showShadow": "0",
+			"use3DLighting": "0",
+			"showLabels": "0",
+			"bgColor": "#1D1B41",
+			"bgAlpha": "0",
+			"canvasBgAlpha": "0",
+			"doughnutRadius": "120",
+			"pieRadius": "150",
+			"plotBorderAlpha": "0",
+			"toolTipBgcolor": "#484E69",
+			"toolTipPadding": "7",
+			"toolTipBorderRadius": "3",
+			"toolTipBorderAlpha": "30",
+			"tooltipBorderThickness": "0.7",
+			"toolTipColor": "#FDFDFD",
+			"baseFont": "Montserrat",
+			"baseFontSize": "14",
+			"baseFontColor": "#FDFDFD",
+			"chartTopMargin": "0",
+			"canvasTopMargin": "0",
+			"chartBottomMargin": "0",
+			"canvasBottomMargin": "0",
+			"enableRotation": "1",
+			"transposeAnimation":"1",
+			"showBorder": "0",
+			"plotToolText": "<div>$label<br>$percentValue<div>"
+		},
+		// Chart Data
+		data: chartData
   }
 };
 
-export default function MyClassEmotion() {
+export default function MyClassEmotionChart() {
 	return (
 		<div>
-				<ReactFC {...chartConfigs} />
+			<ReactFC {...chartConfigs} />
 		</div>
 	)
 }

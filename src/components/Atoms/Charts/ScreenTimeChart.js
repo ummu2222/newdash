@@ -10,7 +10,7 @@ ReactFC.fcRoot(FusionCharts, Widgets, Column2D, FusionTheme);
 var monthVal = "47";
 //var monthDetail = moment().format('MMMM YYYY');
 
-var screenTime = {
+var screenTimeData = {
     "chart": {
         "baseFont": "Montserrat",
         "setAdaptiveMin": "1",
@@ -50,7 +50,7 @@ var screenTime = {
                 "fontSize": "45",
                 "color": "#252424",
                 "x": "$chartcenterX",
-                "y": "$chartCenterY + 30"
+                "y": "$chartCenterY + 10"
             }]
         }]
     },
@@ -88,12 +88,12 @@ var chartConfigs = {
 	className: "fc-angulargauge",
 	id: "screenTime",
 	dataFormat: "JSON",
-	width: "400",
-	height: "300",
-	dataSource: screenTime
+	width: "100%",
+	height: "250",
+	dataSource: screenTimeData
 };
 
-export default function ScreenTime() {
+export default function ScreenTimeChart() {
 	return (
 		<div>
 			<ReactFC {...chartConfigs} />

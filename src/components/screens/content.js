@@ -11,10 +11,10 @@ const Content = () =>{
         <>
         <div className="fluid-container" >
             <div className="row" >
-                <div className="col-6">
+                <div className="col-5">
                     <MyEmotion />
                 </div>
-                <div className="col-2">
+                <div className="col-3">
                     <StudentOfMonth />
                 </div>
                 <div className="col-4">
@@ -24,10 +24,10 @@ const Content = () =>{
         </div>
         <div className="fluid-container" >
             <div className="row" >
-                <div className="col-6">
+                <div className="col-5">
                     <Thought />
                 </div>
-                <div className="col-2">
+                <div className="col-3">
                     <ScreenTime />
                 </div>
                 <div className="col-4">
