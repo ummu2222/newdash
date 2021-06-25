@@ -4,6 +4,7 @@ import Calender from '../Cards/TeachersDash/Calender';
 import ScreenTime from '../Cards/TeachersDash/ScreenTime';
 import MyEmotion from '../Cards/TeachersDash/MyEmotion';
 import Thought from '../Cards/TeachersDash/Thought';
+import TeacherOfMonth from '../Cards/TeachersDash/TeacherOfMonth';
 
 const TeacherContent = () =>{
 
@@ -11,11 +12,16 @@ const TeacherContent = () =>{
         <>
         <div className="fluid-container" >
             <div className="row" >
-                <div className="col-6">
+                <div className="col-5">
                     <MyEmotion />
                 </div>
-                <div className="col-2">
-                    <StudentOfMonth />
+                <div className="col-3">
+                    <div>
+                        <StudentOfMonth />
+                    </div>
+                    <div>
+                        <TeacherOfMonth />
+                    </div>
                 </div>
                 <div className="col-4">
                     <Calender />
@@ -24,10 +30,10 @@ const TeacherContent = () =>{
         </div>
         <div className="fluid-container" >
             <div className="row" >
-                <div className="col-6">
+                <div className="col-5">
                     <Thought />
                 </div>
-                <div className="col-2">
+                <div className="col-3">
                     <ScreenTime />
                 </div>
                 <div className="col-4">

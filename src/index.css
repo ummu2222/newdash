@@ -1,27 +1,99 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #e5e5e5;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #e5e5e5;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
 
 .pagination li .page-link {
-  border: 1px solid #eacc64;
-  color: black;
-  font-weight: 600;
-  cursor: pointer;
+	border: 1px solid #eacc64;
+	color: black;
+	font-weight: 600;
+	cursor: pointer;
 }
 .page-item.active .page-link {
-  z-index: 3;
-  color: #fff;
-  background-color: #eacc64;
-  border-color: #eacc64;
+	z-index: 3;
+	color: #fff;
+	background-color: #eacc64;
+	border-color: #eacc64;
 }
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inter', sans-serif; */
+
+/* <svg class="icon">
+  <use xlink:href="#High Alert"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Left"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Medium Alert"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Motivation"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Neutral"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Reports"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Repulsive"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Right"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Rooms"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Sadness"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Settings"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Star"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Students"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Subjects"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Suprise"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Teachers"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Add"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Anger"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Completed"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Dashboard"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Fear"></use>
+</svg>
+<svg class="icon">
+  <use xlink:href="#Guide"></use>
+</svg> */
