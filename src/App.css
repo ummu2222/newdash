@@ -98,3 +98,26 @@
     color:#545454;
 
 }
+
+.seperator{
+    position: absolute;
+    width: 242px;
+    
+    top: 145px;
+    background-color: #C9C9C9;
+
+    border: 1px solid #C9C9C9;
+    transform: rotate(90deg);
+}
+
+.video-text{
+    
+    width: 394px;
+    height: 52px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}

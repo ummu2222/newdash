@@ -143,6 +143,11 @@ const [speechNavB,setSpeechNavB] = useState("page-item active");
 const [speechNavS,setSpeechNavS] = useState("page-item");
 const [speechNavV,setSpeechNavV] = useState("page-item");
     return (
+
+      <div className="card"  style={{marginTop:'10px'}} >
+            <div className="card-body">
+              
+
       <div style={{backgroundColor:"white",padding:"20px"}}>
         {/* <button onClick={myfunc}>Click</button> */}
       <div style={{display:"flex",justifyContent:"space-between"}}>
@@ -166,7 +171,8 @@ const [speechNavV,setSpeechNavV] = useState("page-item");
         dataSource={dataSource}
       />
       </div>
-      
+      </div>
+        </div>
     );
 
 }
