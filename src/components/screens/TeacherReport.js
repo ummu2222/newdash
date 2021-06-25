@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from '../Atoms/Navbar';
-import Content from './content';
+import Content from '../Content/StudentContent';
 
 
-const Dashboard = () =>{
+const TeacherReport = () =>{
 
 
     return(
@@ -14,4 +14,4 @@ const Dashboard = () =>{
     );
 }
 
-export default Dashboard;
+export default TeacherReport;

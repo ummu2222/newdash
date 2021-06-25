@@ -1,11 +1,11 @@
 import React from 'react';
-import StudentOfMonth from '../Cards/StudentOfMonth';
-import Calender from '../Cards/Calender';
-import ScreenTime from '../Cards/ScreenTime';
-import MyEmotion from '../Cards/MyEmotion';
-import Thought from '../Cards/Thought';
+import StudentOfMonth from '../Cards/TeachersDash/StudentOfMonth';
+import Calender from '../Cards/TeachersDash/Calender';
+import ScreenTime from '../Cards/TeachersDash/ScreenTime';
+import MyEmotion from '../Cards/TeachersDash/MyEmotion';
+import Thought from '../Cards/TeachersDash/Thought';
 
-const Content = () =>{
+const TeacherContent = () =>{
 
     return (
         <>
@@ -38,4 +38,4 @@ const Content = () =>{
     );
 }
 
-export default Content;
+export default TeacherContent;
