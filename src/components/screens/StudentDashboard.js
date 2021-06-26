@@ -8,15 +8,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 const StudentDashboard = () => {
 	return (
 		<Router>
-			<div className='container-fluid'>
+			<div>
 				<div className='row'>
 					<Navbar />
 				</div>
-				<div className='row'>
+				<div>
 					<div
 						style={{
 							display: "inline-block",
-							width: "5%",
 							marginRight: "20px",
 						}}>
 						<SideNavBar />
