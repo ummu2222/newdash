@@ -1,8 +1,7 @@
 import React from 'react';
-
 import UnderstandingAndAttension from '../Cards/TeachersReport/UnderstandingAndAttention';
 import ScreenTime from '../Cards/TeachersReport/ScreenTime';
-import MyEmotion from '../Cards/TeachersReport/MyEmotion';
+import PeakPoint from '../Cards/TeachersReport/PeakPoint';
 import SpeechSpeed from '../Cards/TeachersReport/SpeechGraph'; 
 import DialogueGraph from '../Cards/TeachersReport/DialogueGraph';
 
@@ -13,7 +12,7 @@ const ReportContent = () =>{
         <div className="fluid-container" >
             <div className="row" >
                 <div className="col-8">
-                    <MyEmotion />
+                    <PeakPoint />
                 </div>
                 <div className="col-4">
                     <UnderstandingAndAttension />
