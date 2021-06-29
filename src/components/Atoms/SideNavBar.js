@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./SideNavBar.css";
 import Icon from "./Icon/Icon";
 import { Link } from "react-router-dom";
 
@@ -66,69 +65,69 @@ const SideNavBar = () => {
 	return (
 		<nav className='custom-nav'>
 			<ul style={ulStyle}>
-				<li
-					style={liStyle(0)}
-					className={active[0] ? "active" : " "}
-					onClick={() => isActive(0)}>
-					<Link to='/' style={linkStyle}>
+				<Link to='/' style={linkStyle}>
+					<li
+						style={liStyle(0)}
+						className={active[0] ? "active" : " "}
+						onClick={() => isActive(0)}>
 						<Icon name='Dashboard' />
 						<span style={spanStyle}>Dashboard</span>
-					</Link>
-				</li>
-				<li
-					style={liStyle(1)}
-					className={active[1] ? "active" : " "}
-					onClick={() => isActive(1)}>
-					<Link to='/reports' style={linkStyle}>
+					</li>
+				</Link>
+				<Link to='/reports' style={linkStyle}>
+					<li
+						style={liStyle(1)}
+						className={active[1] ? "active" : " "}
+						onClick={() => isActive(1)}>
 						<Icon name='Reports' />
 						<span>Reports</span>
-					</Link>
-				</li>
-				<li
-					style={liStyle(2)}
-					className={active[2] ? "active" : " "}
-					onClick={() => isActive(2)}>
-					<Link to='/subjects' style={linkStyle}>
+					</li>
+				</Link>
+				<Link to='/subjects' style={linkStyle}>
+					<li
+						style={liStyle(2)}
+						className={active[2] ? "active" : " "}
+						onClick={() => isActive(2)}>
 						<Icon name='Subjects' />
 						<span>Subjects</span>
-					</Link>
-				</li>
-				<li
-					style={liStyle(3)}
-					className={active[3] ? "active" : " "}
-					onClick={() => isActive(3)}>
-					<Link to='/students' style={linkStyle}>
+					</li>
+				</Link>
+				<Link to='/students' style={linkStyle}>
+					<li
+						style={liStyle(3)}
+						className={active[3] ? "active" : " "}
+						onClick={() => isActive(3)}>
 						<Icon name='Students' />
 						<span>Students</span>
-					</Link>
-				</li>
-				<li
-					style={liStyle(4)}
-					className={active[4] ? "active" : " "}
-					onClick={() => isActive(4)}>
-					<Link to='/rooms' style={linkStyle}>
+					</li>
+				</Link>
+				<Link to='/rooms' style={linkStyle}>
+					<li
+						style={liStyle(4)}
+						className={active[4] ? "active" : " "}
+						onClick={() => isActive(4)}>
 						<Icon name='Rooms' />
 						<span>Rooms</span>
-					</Link>
-				</li>
-				<li
-					style={liStyle(5)}
-					className={active[5] ? "active" : " "}
-					onClick={() => isActive(5)}>
-					<Link to='/motivation' style={linkStyle}>
+					</li>
+				</Link>
+				<Link to='/motivation' style={linkStyle}>
+					<li
+						style={liStyle(5)}
+						className={active[5] ? "active" : " "}
+						onClick={() => isActive(5)}>
 						<Icon name='Motivation' />
 						<span>Motivation</span>
-					</Link>
-				</li>
-				<li
-					style={liStyle(6)}
-					className={active[6] ? "active" : " "}
-					onClick={() => isActive(6)}>
-					<Link to='/settings' style={linkStyle}>
+					</li>
+				</Link>
+				<Link to='/settings' style={linkStyle}>
+					<li
+						style={liStyle(6)}
+						className={active[6] ? "active" : " "}
+						onClick={() => isActive(6)}>
 						<Icon name='Settings' />
 						<span>Settings</span>
-					</Link>
-				</li>
+					</li>
+				</Link>
 			</ul>
 		</nav>
 	);

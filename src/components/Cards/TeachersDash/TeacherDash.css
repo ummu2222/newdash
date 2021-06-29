@@ -1,0 +1,189 @@
+.calendar{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #000000;
+}
+
+.card-heading{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+
+
+    color: #545454;
+}
+
+.day{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.dateSelected{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+
+    position: static;
+    width: 55px;
+    height: 55px;
+    left: 55px;
+    top: 0px;
+
+    background: #EACC6A;
+    border: 1.29021px solid #DFDFDF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.dateNotSelected{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+
+    position: static;
+    width: 55px;
+    height: 55px;
+    left: 55px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border: 1.29021px solid #DFDFDF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.date{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.dayBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+
+    position: static;
+    width: 55px;
+    height: 55px;
+    left: 55px;
+    top: 0px;
+
+    background: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.itemCard {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 2.29021px solid #DFDFDF;
+   
+}
+
+.itemHeading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #333333;
+}
+
+.itemTime {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.12px;
+
+    color: #333333;
+}
+
+.addNewBox {
+    background: #FFFFFF;
+    border: 4px dashed #EACC6A;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.addNewText{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+}

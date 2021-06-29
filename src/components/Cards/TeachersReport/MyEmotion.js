@@ -38,7 +38,7 @@ const MyEmotion = () =>{
     ]
 
     return (
-        <div className="card"  style={{marginTop:'10px',width:'450px'}} >
+        <div className="card"  style={{marginTop:'10px',width:'450px',border:'1px solid white'}} >
             <div className="card-body" style = {{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
                 <h6 className="c-heading">My Emotion</h6>
                 <div>

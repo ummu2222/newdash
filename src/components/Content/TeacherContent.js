@@ -9,39 +9,39 @@ import TeacherOfMonth from '../Cards/TeachersDash/TeacherOfMonth';
 const TeacherContent = () =>{
 
     return (
-        <>
-        <div className="fluid-container" >
-           
-            <div className="row" >
-                <div className="col-5">
-                    <MyEmotion />
-                </div>
-                <div className="col-3">
-                    <div>
-                        <StudentOfMonth />
+        <div style={{display:'flex'}}>
+        <div>
+            <div className="fluid-container" >   
+                <div className="row" >
+                    <div className="col-7">
+                        <MyEmotion />
                     </div>
-                    <div>
-                        <TeacherOfMonth />
+                    <div className="col-5">
+                        <div>
+                            <StudentOfMonth />
+                        </div>
+                        <div>
+                            <TeacherOfMonth />
+                        </div>
                     </div>
+                    
                 </div>
-                <div className="col-4">
-                    <Calender />
+            </div>
+            <div className="fluid-container" >
+                <div className="row" >
+                    <div className="col-7">
+                        <Thought />
+                    </div>
+                    <div className="col-5">
+                        <ScreenTime />
+                    </div>
                 </div>
             </div>
         </div>
-        <div className="fluid-container" >
-            <div className="row" >
-                <div className="col-5">
-                    <Thought />
-                </div>
-                <div className="col-3">
-                    <ScreenTime />
-                </div>
-                <div className="col-4">
-                </div>
-            </div>
+        <div style={{marginLeft:'20px'}}>
+            <Calender />
         </div>
-        </>
+        </div>
     );
 }
 

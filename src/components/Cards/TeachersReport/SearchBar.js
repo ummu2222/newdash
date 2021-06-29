@@ -3,7 +3,7 @@ import Search from '../../Atoms/Search';
 import DropdownBtn from '../../Atoms/DropdownBtn';
 import TwoColorBtn from '../../Atoms/TwoColorBtn';
 
-const seperator = {width:'1px',height:'40px',border:'1px solid #C9C9C9',marginLeft:'8px'};
+const seperator = {width:'1px',height:'40px',border:'1px solid #C9C9C9',marginLeft:'8px',backgroundColor:'#C9C9C9'};
 
 const SearchBar = () =>{
 
