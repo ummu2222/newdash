@@ -11,6 +11,7 @@ const TeacherContent = () =>{
     return (
         <>
         <div className="fluid-container" >
+           
             <div className="row" >
                 <div className="col-5">
                     <MyEmotion />

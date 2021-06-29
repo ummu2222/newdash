@@ -22,6 +22,7 @@ const TeacherDashboard = () => {
 				<div
 					style={{
 						display: "inline-block",
+						marginTop:'0px',
 						width: "75px",
 						height: "93vh",
 						marginRight: "20px",

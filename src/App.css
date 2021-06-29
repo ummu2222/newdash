@@ -179,3 +179,29 @@
   
     color: #242424;
   }
+
+
+  .search-bar{
+      display:flex;
+  }
+  
+  .apply-btn{     
+    width: 90px;
+    height: 32px;
+    background: #EACC6A;
+    border-radius: 16px;
+    border: 1px solid #EACC6A;
+    margin-top: 3px;
+    margin-left: 130px;
+
+  }
+
+  .clear-all-btn{
+    width: 90px;
+    height: 32px;
+    background: #E4E4E2;
+    border-radius: 16px;
+    border: 1px solid #E4E4E2;
+    margin-top: 3px;
+    margin-left: 10px;
+  }
